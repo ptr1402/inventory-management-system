@@ -1,7 +1,8 @@
 import React from 'react';
+import { InventoryTable } from './InventoryTable';
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello</h1>;
+  return <InventoryTable />;
 }
 
 export default App;
